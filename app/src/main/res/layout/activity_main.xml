@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wllppr"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIZ"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Question 1"
+        android:id="@+id/que1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Question 2"
+        android:id="@+id/que2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Question 3"
+        android:id="@+id/que3"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="EXIT"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnExit"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
